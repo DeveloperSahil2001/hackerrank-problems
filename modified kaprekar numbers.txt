@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+ long int a,b,i,j,c,num,div,n1,n2,k=0;
+ scanf("%ld\n%ld",&a,&b);
+ for(i=a;i<=b;i++)
+ {
+  c=0;
+  for(j=i;j>0;j=j/10)
+  {
+   c++;
+  }
+  div=pow(10,c);
+  num=i*i;
+  n1=num%div;
+  num=num/div;
+  n2=num%div;
+  if((n1+n2)==i)
+  {
+   printf("%ld ",i);
+   k++;
+  }
+ }
+ if(k==0)
+ printf("INVALID RANGE");
+
+}

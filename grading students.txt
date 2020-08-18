@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<math.h>
+int main()  
+{
+ int n;
+ scanf("%d",&n);
+ int ar[n],c=0,t;
+ for(int i=0;i<n;i++)
+ {
+  scanf("%d",&ar[i]);
+ }
+for(int i=0;i<n;i++)
+{
+ t=ar[i];
+ c=0;
+ while(ar[i]%5!=0)
+ {
+  ar[i]=ar[i]+1;
+  c++;
+ }
+ if(c>2||ar[i]<40)
+ ar[i]=t;
+}
+for(int j=0;j<n;j++)
+{
+printf("%d\n",ar[j]);
+}
+}

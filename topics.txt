@@ -1,0 +1,21 @@
+
+1.	Airline reservation system
+2.	Course management system
+3.	Electricity billing system
+4.	e-Healthcare management system
+5.	Email client software
+6.	Library management system
+7.	Network packet sniffer
+8.	Online bank management system
+9.	Online medical management system
+10.	Online quiz
+11.	Online Survey System
+12.	RSS feed reader
+13.	Smart city project
+14.	Stock management system
+15.	Supply chain management system
+16.	School fee payment system
+17.	School management system
+18.	Student management 
+19.	Address book management system
+20.	Data encryption
