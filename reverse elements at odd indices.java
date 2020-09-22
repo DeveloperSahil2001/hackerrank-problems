@@ -16,6 +16,8 @@ class Main
  Stack<Integer> st=new Stack<Integer>();
   st.push(1);//to prevent empty stack exception 
  int size=q.size(),i,x;
+ if(size!=1)
+ {
  for(i=0;i<size;i++)
  {
   x=q.poll();
@@ -33,6 +35,7 @@ class Main
   q.add(x);
   x=st.pop();
   q.add(x);
+ }
  }
 }
 public static void main(String[] args)
